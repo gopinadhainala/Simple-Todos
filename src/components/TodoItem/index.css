@@ -1,0 +1,37 @@
+.list-item-styling {
+  list-style: none;
+}
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: 'Roboto';
+}
+.title {
+  font-size: 15px;
+  font-weight: 500;
+}
+.button-styling {
+  margin-left: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: transparent;
+  color: #ff0b37;
+  border: 1.5px solid #ff0b37;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 23px;
+  }
+  .button-styling {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

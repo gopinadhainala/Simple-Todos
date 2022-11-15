@@ -1,0 +1,43 @@
+.bg-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-flow: column;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.todo-header {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #ff8542;
+}
+
+.unordered-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-header {
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
